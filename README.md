@@ -5,20 +5,12 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Install Ruby version - 3.1.2
 
-* System dependencies
+* run `bundle install`
 
-* Configuration
+* run `bundle exec rake db:setup` to setup your database, it will also seed database.
 
-* Database creation
+* run `rails s` to start the development server
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* to test the APIs with [GraphQL](https://graphql-ruby.org/getting_started) go to this url `/graphql`
